@@ -81,14 +81,13 @@
 					<div class="page-header-inner tt-wrap">
 						<div class="ph-image">
 							<div class="ph-image-inner">
-								<img src="assets/img/page-header/ph-6.jpg" alt="Image">
+								<img src="assets/img/PHOTO CV JULIETTE BUREL.jpg" alt="Image">
 							</div>
 						</div>
 						<div class="ph-caption max-width-1000">
-							<h1 class="ph-caption-title ph-appear font-normal"><em>Hello stranger!</em><br> We are a
-								creative design agency based in Melbourne. We bring your <em><u>ideas</u></em> to life.
+							<h1 class="ph-caption-title ph-appear font-normal"> "Bienvenue sur mon portfolio, <br> où je partage mes projets <br> créatifs et innovants."
 							</h1>
-							<div class="ph-caption-title-ghost ph-appear">Hello!</div>
+							<div class="ph-caption-title-ghost ph-appear">Bienvenue!</div>
 						</div>
 					</div>
 					<a href="#page-content" class="scroll-down-circle" data-offset="30">
@@ -108,83 +107,229 @@
 					</a>
 				</div>
 				<div id="page-content">
-					<div class="tt-section padding-bottom-xlg-150">
-						<div class="tt-section-inner tt-wrap">
-							<div class="tt-heading tt-heading-center tt-heading-lg margin-bottom-10-p anim-fadeinup">
-								<h3 class="tt-heading-subtitle text-gray">Derniers projets</h3>
+
+					<!-- =======================
+					///// Begin tt-section /////
+					============================ 
+					* You can use padding classes if needed. For example "padding-top-xlg-150", "padding-bottom-xlg-150", "no-padding-top", "no-padding-bottom", etc. Note that each situation may be different and each section may need different classes according to your needs. More info about helper classes can be found in the file "helper.css".
+					-->
+					<div class="tt-section no-padding-bottom">
+						<div class="tt-section-inner">
+
+							<!-- Begin tt-Heading 
+							====================== 
+							* Use class "tt-heading-xsm", "tt-heading-sm", "tt-heading-lg", "tt-heading-xlg" or "tt-heading-xxlg" to set caption size (no class = default size).
+							* Use class "tt-heading-stroke" to enable stroke style.
+							* Use class "tt-heading-center" to align tt-Heading to center.
+							* Use prepared helper class "max-width-*" to add custom width if needed. Example: "max-width-800". More info about helper classes can be found in the file "helper.css".
+							-->
+							<div class="tt-heading tt-heading-lg tt-heading-center margin-bottom-10-p anim-fadeinup">
 								<h2 class="tt-heading-title">Projets</h2>
 								<div class="tt-btn tt-btn-link margin-top-20">
-									<a href="portfolio.html" data-hover="See All Works">Voir plus</a>
+									<a href="portfolio.html" data-hover="See All Works">Voir tous 	</a>
 								</div>
 							</div>
-							<div class="portfolio-interactive pi-borders pi-compact pi-force-scroll">
-								<div class="portfolio-interactive-item anim-skewinup" data-scroll-speed="3">
-									<a href="projet01.html" class="pi-item-title-link">
-										<h2 class="pi-item-title">Loffi</h2>
-										<div class="pi-item-hover-title">Loffi</div>
-									</a>
-									<div class="pi-item-category-wrap">
-										<div class="pi-item-category">Web Design</div>
+							<!-- End tt-Heading -->
+
+
+							<!-- Begin portfolio grid (works combined with tt-Ggrid!)
+							========================== 
+							* Use class "pgi-hover" to enable portfolio grid item hover effect (behavior depends on "ttgr-gap-*" classes below!).
+							* Use class "pgi-cap-hover" to enable portfolio grid item caption hover effect (effect only with class "pgi-cap-inside"! Also no effect on mobile devices!).
+							* Use class "pgi-cap-center" to position portfolio grid item caption to center.
+							* Use class "pgi-cap-inside" to position portfolio grid item caption to inside.
+							--> 
+							<div id="portfolio-grid" class="pgi-cap-inside pgi-hover">
+
+								<!-- Begin tt-Grid
+								=================== 
+								* Use class "ttgr-layout-2", "ttgr-layout-3", "ttgr-layout-4" to set grid layout (columns). No class = one column.
+								* Use class "ttgr-layout-1-2", "ttgr-layout-2-1", "ttgr-layout-2-3", "ttgr-layout-3-2", "ttgr-layout-3-4" or "ttgr-layout-4-3" to set grid mixed layout (columns).
+								* Use class "ttgr-layout-creative-1" or "ttgr-layout-creative-2" to set grid creative mixed layout (no effect with classes "ttgr-portrait", "ttgr-portrait-half", "ttgr-not-cropped" and "ttgr-shifted").
+								* Use class "ttgr-portrait" or "ttgr-portrait-half" to enable portrait mode (no effect with classes "ttgr-layout-creative-1", "ttgr-layout-creative-2" and "ttgr-not-cropped").
+								* Use class "ttgr-gap-1", "ttgr-gap-2", "ttgr-gap-3", "ttgr-gap-4", "ttgr-gap-5" or "ttgr-gap-6" to add space between items.
+								* Use class "ttgr-not-cropped" to enable not cropped mode (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
+								* Use class "ttgr-shifted" to enable shifted layout (effect only with classes "ttgr-layout-2", "ttgr-layout-3" and "ttgr-layout-4").
+								-->
+								<div class="tt-grid ttgr-layout-creative-2 ttgr-not-cropped ttgr-gap-4">
+
+									<!-- Begin tt-Grid items wrap 
+									============================== -->
+									<div class="tt-grid-items-wrap isotope-items-wrap">
+
+										<!-- Begin tt-Grid item
+										======================== -->
+										<div class="tt-grid-item isotope-item people">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item 
+												===============================
+												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"! Also no effect on small screens!).
+												-->
+												<div class="portfolio-grid-item">
+													<a href="projet01.html" class="pgi-image-wrap" data-cursor="Voir<br>Projet">
+														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+														<div class="pgi-image-holder cover-opacity-2">
+															<div class="pgi-image-inner anim-zoomin">
+																<video class="tt-pn-video" loop muted preload="metadata" poster="assets/vids/photo chien.png">
+																	<source src="assets/vids/Video chien.mp4" type="video/mp4">
+																	<source src="assets/vids/Video chien.mp4" type="video/webm">
+																</video>
+															</div> <!-- /.pgi-image-inner -->
+														</div> <!-- /.pgi-image-holder -->
+													</a> <!-- /.pgi-image-wrap -->
+
+													<div class="pgi-caption">
+														<div class="pgi-caption-inner">
+															<h2 class="pgi-title">LOFFI</h2>
+															<div class="pgi-categories-wrap">
+																<div class="pgi-category">Web Design</div>
+																<!-- <div class="pgi-category">Varia</div> -->
+															</div> <!-- /.pli-categories-wrap -->
+														</div> <!-- /.pgi-caption-inner -->
+													</div> <!-- /.pgi-caption -->
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div> <!-- /.ttgr-item-inner -->
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item
+										======================== -->
+										<div class="tt-grid-item isotope-item creative">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item 
+												===============================
+												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+												-->
+												<div class="portfolio-grid-item anim-parallax">
+													<a href="projet02.html" class="pgi-image-wrap" data-cursor="Voir<br>Projet">
+														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+														<div class="pgi-image-holder cover-opacity-2">
+															<div class="pgi-image-inner anim-zoomin">
+																<video class="tt-pn-video" loop muted preload="metadata" poster="assets/vids/photo cuisine.png">
+																	<source src="assets/vids/video cuisine.mp4" type="video/mp4">
+																	<source src="assets/vids/video cuisine.mp4" type="video/webm">
+																</video>
+															</div> <!-- /.pgi-image-inner -->
+														</div> <!-- /.pgi-image-holder -->
+													</a> <!-- /.pgi-image-wrap -->
+
+													<div class="pgi-caption">
+														<div class="pgi-caption-inner">
+															<h2 class="pgi-title">KUKOM</h2>
+															<div class="pgi-categories-wrap">
+																<div class="pgi-category">Design Mobile</div>
+																<!-- <div class="pgi-category">Varia</div> -->
+															</div> <!-- /.pli-categories-wrap -->
+														</div> <!-- /.pgi-caption-inner -->
+													</div> <!-- /.pgi-caption -->
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div> <!-- /.ttgr-item-inner -->
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item
+										======================== -->
+										<div class="tt-grid-item isotope-item people">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item 
+												===============================
+												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+												-->
+												<div class="portfolio-grid-item">
+													<a href="projet04.html" class="pgi-image-wrap" data-cursor="Voir<br>Projet">
+														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+														<div class="pgi-image-holder cover-opacity-2">
+															<div class="pgi-image-inner anim-zoomin">
+																<figure class="pgi-video-wrap ttgr-height">
+																	<video class="pgi-video" loop muted preload="metadata" poster="assets/vids/photo street art.png">
+																		<source src="assets/vids/video street art.mp4" type="video/mp4">
+																		<source src="assets/vids/video street art.mp4" type="video/webm">
+																	</video>
+																</figure> <!-- /.pgi-video-wrap -->
+															</div> <!-- /.pgi-image-inner -->
+														</div> <!-- /.pgi-image-holder -->
+													</a> <!-- /.pgi-image-wrap -->
+
+													<div class="pgi-caption">
+														<div class="pgi-caption-inner">
+															<h2 class="pgi-title">Artychaut</h2>
+															<div class="pgi-categories-wrap">
+																<div class="pgi-category">Design Mobile</div>
+																<!-- <div class="pgi-category">Varia</div> -->
+															</div> <!-- /.pli-categories-wrap -->
+														</div> <!-- /.pgi-caption-inner -->
+													</div> <!-- /.pgi-caption -->
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div> <!-- /.ttgr-item-inner -->
+										</div>
+										<!-- End tt-Grid item -->
+
+										<!-- Begin tt-Grid item
+										======================== -->
+										<div class="tt-grid-item isotope-item nature">
+											<div class="ttgr-item-inner">
+
+												<!-- Begin portfolio grid item 
+												===============================
+												* Use class "pgi-image-is-light" if needed, it makes the caption visible better if you use light image (only effect if "pgi-cap-inside" is enabled on "portfolio-grid"!).
+												-->
+												<div class="portfolio-grid-item">
+													<a href="projet10.html" class="pgi-image-wrap" data-cursor="Voir<br>Projet">
+														<!-- Use class "cover-opacity-*" to set image overlay if needed. For example "cover-opacity-2". Useful if class "pgi-cap-inside" is enabled on "portfolio-grid". Note: It is individual and depends on the image you use. More info about helper classes in file "helper.css". -->
+														<div class="pgi-image-holder cover-opacity-2">
+															<div class="pgi-image-inner anim-zoomin">
+																<figure class="pgi-video-wrap ttgr-height">
+																	<video class="pgi-video" loop muted preload="metadata" poster="assets/vids/Couleur-logo-Netflix.jpg">
+																		<source src="assets/vids/Logo Netflix vid.mp4" type="video/mp4">
+																		<source src="assets/vids/Logo Netflix vid.mp4" type="video/webm">
+																	</video>
+																</figure> <!-- /.pgi-video-wrap -->
+															</div> <!-- /.pgi-image-inner -->
+														</div> <!-- /.pgi-image-holder -->
+													</a> <!-- /.pgi-image-wrap -->
+
+													<div class="pgi-caption">
+														<div class="pgi-caption-inner">
+															<h2 class="pgi-title">Netflix</h2>
+															<div class="pgi-categories-wrap">
+																<div class="pgi-category">UX-UI Design</div>
+																<!-- <div class="pgi-category">Varia</div> -->
+															</div> <!-- /.pli-categories-wrap -->
+														</div> <!-- /.pgi-caption-inner -->
+													</div> <!-- /.pgi-caption -->
+												</div>
+												<!-- End portfolio grid item -->
+
+											</div> <!-- /.ttgr-item-inner -->
+										</div>
+										<!-- End tt-Grid item -->
+
 									</div>
-									<figure class="pi-item-image cover-opacity-2">
-										<video class="pi-item-video" loop muted preload="metadata"
-											poster="assets/vids/fashion-week.jpg">
-											<source src="assets/vids/Video chien.mp4" type="video/mp4">
-											<source src="assets/vids/Video chien.mp4" type="video/webm">
-										</video>
-									</figure>
+									<!-- End tt-Grid items wrap  -->
+
 								</div>
-								<div class="portfolio-interactive-item anim-skewinup" data-scroll-speed="2">
-									<a href="projet02.html" class="pi-item-title-link">
-										<h2 class="pi-item-title">Kukom</h2>
-										<div class="pi-item-hover-title">Kukom</div>
-									</a>
-									<div class="pi-item-category-wrap">
-										<div class="pi-item-category">Design Mobile</div>
-									</div>
-									<figure class="pi-item-image cover-opacity-2">
-										<video class="pi-item-video" loop muted preload="metadata"
-											poster="assets/vids/fashion-week.jpg">
-											<source src="assets/vids/video cuisine.mp4" type="video/mp4">
-											<source src="assets/vids/video cuisine.mp4" type="video/webm">
-										</video>
-									</figure>
-								</div>
-								<div class="portfolio-interactive-item anim-skewinup" data-scroll-speed="3">
-									<a href="projet03.html" class="pi-item-title-link">
-										<h2 class="pi-item-title">Artychaut</h2>
-										<div class="pi-item-hover-title">Artychaut</div>
-									</a>
-									<div class="pi-item-category-wrap">
-										<div class="pi-item-category">Design Mobile</div>
-									</div>
-									<figure class="pi-item-image cover-opacity-2">
-										<video class="pi-item-video" loop muted preload="metadata"
-											poster="assets/vids/fashion-week.jpg">
-											<source src="assets/vids/video street art.mp4" type="video/mp4">
-											<source src="assets/vids/video street art.mp4" type="video/webm">
-										</video>
-									</figure>
-								</div>
-								<div class="portfolio-interactive-item anim-skewinup" data-scroll-speed="3">
-									<a href="projet05.html" class="pi-item-title-link">
-										<h2 class="pi-item-title">Jolivoyage</h2>
-										<div class="pi-item-hover-title">Jolivoyage</div>
-									</a>
-									<div class="pi-item-category-wrap">
-										<div class="pi-item-category">Web Design</div>
-									</div>
-									<figure class="pi-item-image cover-opacity-2">
-										<video class="pi-item-video" loop muted preload="metadata"
-											poster="assets/vids/fashion-week.jpg">
-											<source src="assets/vids/video plage.mp4" type="video/mp4">
-											<source src="assets/vids/video plage.mp4" type="video/webm">
-										</video>
-									</figure>
-								</div>
+								<!-- End tt-Grid -->
+
 							</div>
-						</div>
+							<!-- End portfolio grid -->
+
+						</div> <!-- /.tt-section-inner -->
 					</div>
+					<!-- End tt-section -->
+
+
+
+
+
 					<div class="tt-section padding-bottom-xlg-150">
 						<div class="tt-section-inner tt-wrap">
 							<div class="tt-heading tt-heading-center tt-heading-lg margin-bottom-10-p anim-fadeinup">
@@ -200,13 +345,12 @@
 												<div class="tt-accordion-caret magnetic-item"></div>
 											</div>
 										</div>
-										<div class="tt-accordion-content max-width-800">
-											<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-												ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-												amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo
-												ut
-												odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque
-												vulputate.</p>
+										<div class="tt-accordion-content max-width-1200">
+											<p>Grâce à mes expériences en stage et en alternance, j'ai acquis de solides compétences en UX-UI design. 
+												J'ai développé une grande capacité à comprendre les besoins des utilisateurs et à concevoir des interfaces 
+												intuitives en utilisant des outils tels que Sketch, Figma ou Adobe Creative Suite. Je suis également en
+												mesure de créer des parcours utilisateurs fluides et cohérents tout en appliquant les principes d'ergonomie 
+												et d'utilisabilité. Mon sens artistique et ma capacité à travailler en équipe font également partie de mes atouts.</p>
 										</div>
 									</div>
 									<div class="tt-accordion-item anim-fadeinup">
@@ -217,13 +361,12 @@
 												<div class="tt-accordion-caret magnetic-item"></div>
 											</div>
 										</div>
-										<div class="tt-accordion-content max-width-800">
-											<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-												ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-												amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo
-												ut
-												odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque
-												vulputate.</p>
+										<div class="tt-accordion-content max-width-1200">
+											<p>Grâce à mes expériences en stage à l'Hôtel Trianon RIve Gauche et dans deux startups, j'ai acquis de solides compétences 
+												en graphisme. J'ai une excellente maîtrise des logiciels de conception tels que Photoshop, Illustrator et InDesign. 
+												Je suis capable de créer des designs innovants et créatifs pour différents supports tels que des flyers, des 
+												brochures, des bannières web, etc. Mon sens de l'esthétique et ma capacité à comprendre les besoins du public 
+												me permettent de créer des designs impactants et attractifs.</p>
 										</div>
 									</div>
 									<div class="tt-accordion-item anim-fadeinup">
@@ -234,13 +377,14 @@
 												<div class="tt-accordion-caret magnetic-item"></div>
 											</div>
 										</div>
-										<div class="tt-accordion-content max-width-800">
-											<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-												ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-												amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo
-												ut
-												odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque
-												vulputate.</p>
+										<div class="tt-accordion-content max-width-1200">
+											<p>Grâce à mes expériences en stage et lors de ma formation, j'ai acquis de solides compétences en branding. 
+												Je suis capable de développer une identité visuelle forte et cohérente pour une entreprise, 
+												en utilisant des éléments tels que le logo, les couleurs et la typographie. J'ai une compréhension 
+												approfondie de l'image de marque et de la stratégie de communication, ce qui me permet de créer 
+												des designs pertinents et efficaces pour différents supports de communication. Mon sens de 
+												l'esthétique et ma créativité me permettent de créer des designs qui reflètent l'essence de la 
+												marque et qui suscitent l'intérêt des clients potentiels.</p>
 										</div>
 									</div>
 									<div class="tt-accordion-item anim-fadeinup">
@@ -251,13 +395,13 @@
 												<div class="tt-accordion-caret magnetic-item"></div>
 											</div>
 										</div>
-										<div class="tt-accordion-content max-width-800">
-											<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-												ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-												amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo
-												ut
-												odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque
-												vulputate.</p>
+										<div class="tt-accordion-content max-width-1200">
+											<p>Grâce à mes expériences en stage et lors de ma formation, j'ai acquis de solides compétences en marketing. 
+												Je suis capable de développer des stratégies de marketing efficaces en utilisant une variété d'outils tels 
+												que l'analyse de marché, la segmentation de la clientèle et la planification de campagnes. J'ai une bonne 
+												compréhension des principes de la communication et du branding, ce qui me permet de créer des messages 
+												marketing pertinents et impactants pour différents publics. Mon sens de l'analyse et ma créativité me 
+												permettent de proposer des solutions innovantes pour résoudre des problèmes de marketing complexes.</p>
 										</div>
 									</div>
 								</div>
@@ -307,7 +451,7 @@
 					<div class="footer-col tt-align-center order-m-last">
 						<div class="footer-col-inner">
 							<div class="tt-copyright">
-								© Copyright - <a class="tt-link">Juliette Burel</a>
+								© Copyright - Juliette Burel</a>
 							</div>
 						</div>
 					</div>
